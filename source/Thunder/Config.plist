@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>AppleScript File</key>
+            <string>DownloadWithThunder.applescript</string>
+            <key>Image File</key>
+            <string>thunder.png</string>
+            <key>Regular Expression</key>
+            <string>(?s)^(((http|https|ftp|thunder|ed2k):\/\/)|magnet:\?xt=urn:btih:).{1,}$</string>
+            <key>Title</key>
+            <string>Thunder</string>
+        </dict>
+    </array>
+    <key>Apps</key>
+    <array>
+        <dict>
+            <key>Bundle Identifier</key>
+            <string>com.xunlei.Thunder</string>
+            <key>Check Installed</key>
+            <true/>
+            <key>Link</key>
+            <string>http://mac.xunlei.com/index.html</string>
+            <key>Name</key>
+            <string>Thunder</string>
+        </dict>
+    </array>
+    <key>Extension Description</key>
+    <string>Use Thunder to download the file pointed to by the URL.</string>
+    <key>Extension Identifier</key>
+    <string>com.aspirewit.popclip.extension.thunder</string>
+    <key>Extension Name</key>
+    <string>Thunder</string>
+    <key>Version</key>
+    <integer>1</integer>
+</dict>
+</plist>
